@@ -1,0 +1,16 @@
+c:\users\cmiriyala\source\repos\WechartTest\WechartTest\bin\Debug\WechartTest.exe.config
+c:\users\cmiriyala\source\repos\WechartTest\WechartTest\bin\Debug\WechartTest.exe
+c:\users\cmiriyala\source\repos\WechartTest\WechartTest\bin\Debug\WechartTest.pdb
+c:\users\cmiriyala\source\repos\WechartTest\WechartTest\bin\Debug\nunit.framework.dll
+c:\users\cmiriyala\source\repos\WechartTest\WechartTest\bin\Debug\SeleniumExtras.PageObjects.dll
+c:\users\cmiriyala\source\repos\WechartTest\WechartTest\bin\Debug\WebDriver.dll
+c:\users\cmiriyala\source\repos\WechartTest\WechartTest\bin\Debug\WebDriver.Support.dll
+c:\users\cmiriyala\source\repos\WechartTest\WechartTest\bin\Debug\nunit.framework.pdb
+c:\users\cmiriyala\source\repos\WechartTest\WechartTest\bin\Debug\nunit.framework.xml
+c:\users\cmiriyala\source\repos\WechartTest\WechartTest\bin\Debug\WebDriver.xml
+c:\users\cmiriyala\source\repos\WechartTest\WechartTest\bin\Debug\WebDriver.Support.xml
+c:\users\cmiriyala\source\repos\WechartTest\WechartTest\obj\Debug\WechartTest.csprojAssemblyReference.cache
+c:\users\cmiriyala\source\repos\WechartTest\WechartTest\obj\Debug\WechartTest.csproj.CoreCompileInputs.cache
+c:\users\cmiriyala\source\repos\WechartTest\WechartTest\obj\Debug\WechartTest.csproj.CopyComplete
+c:\users\cmiriyala\source\repos\WechartTest\WechartTest\obj\Debug\WechartTest.exe
+c:\users\cmiriyala\source\repos\WechartTest\WechartTest\obj\Debug\WechartTest.pdb

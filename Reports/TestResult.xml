@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="8" result="Failed" total="8" passed="7" failed="1" inconclusive="0" skipped="0" asserts="4" engine-version="3.8.0.0" clr-version="4.0.30319.42000" start-time="2018-07-22 06:16:39Z" end-time="2018-07-22 06:17:23Z" duration="44.424007">
+  <command-line><![CDATA[nunit3-console.exe  "C:\Users\cmiriyala\source\repos\WechartTest\WechartTest\bin\Debug\WechartTest.exe"]]></command-line>
+  <test-suite type="Assembly" id="0-1011" name="WechartTest.exe" fullname="C:\Users\cmiriyala\source\repos\WechartTest\WechartTest\bin\Debug\WechartTest.exe" runstate="Runnable" testcasecount="8" result="Failed" site="Child" start-time="2018-07-22 06:16:40Z" end-time="2018-07-22 06:17:23Z" duration="43.204820" total="8" passed="7" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="4">
+    <environment framework-version="3.10.1.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.17134.0" platform="Win32NT" cwd="C:\Users\cmiriyala\source\repos\WechartTest\packages\NUnit.ConsoleRunner.3.8.0\tools" machine-name="CPACSBRJ0ZZ1" user="cmiriyala" user-domain="UNOMAHA" culture="en-US" uiculture="en-US" os-architecture="x86" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\Users\cmiriyala\source\repos\WechartTest\packages\NUnit.ConsoleRunner.3.8.0\tools" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.6.1" />
+      <setting name="ImageRequiresX86" value="True" />
+      <setting name="RunAsX86" value="True" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="8" />
+    </settings>
+    <properties>
+      <property name="_PID" value="19380" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="TestSuite" id="0-1012" name="WechartTest" fullname="WechartTest" runstate="Runnable" testcasecount="8" result="Failed" site="Child" start-time="2018-07-22 06:16:40Z" end-time="2018-07-22 06:17:23Z" duration="43.189869" total="8" passed="7" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="4">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="0-1013" name="Scenarios" fullname="WechartTest.Scenarios" runstate="Runnable" testcasecount="8" result="Failed" site="Child" start-time="2018-07-22 06:16:40Z" end-time="2018-07-22 06:17:23Z" duration="43.189541" total="8" passed="7" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="4">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestFixture" id="0-1000" name="AdminEditProfile" fullname="WechartTest.Scenarios.AdminEditProfile" classname="WechartTest.Scenarios.AdminEditProfile" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2018-07-22 06:16:40Z" end-time="2018-07-22 06:16:56Z" duration="16.193320" total="3" passed="2" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="2">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="0-1001" name="EditProfileValid" fullname="WechartTest.Scenarios.AdminEditProfile.EditProfileValid" methodname="EditProfileValid" classname="WechartTest.Scenarios.AdminEditProfile" runstate="Runnable" seed="1873694133" result="Passed" start-time="2018-07-22 06:16:48Z" end-time="2018-07-22 06:16:51Z" duration="2.499267" asserts="1" />
+          <test-case id="0-1003" name="UpdatepasswordInValid" fullname="WechartTest.Scenarios.AdminEditProfile.UpdatepasswordInValid" methodname="UpdatepasswordInValid" classname="WechartTest.Scenarios.AdminEditProfile" runstate="Runnable" seed="1440639145" result="Passed" start-time="2018-07-22 06:16:51Z" end-time="2018-07-22 06:16:53Z" duration="1.979643" asserts="1" />
+          <test-case id="0-1002" name="UpdatepasswordValid" fullname="WechartTest.Scenarios.AdminEditProfile.UpdatepasswordValid" methodname="UpdatepasswordValid" classname="WechartTest.Scenarios.AdminEditProfile" runstate="Runnable" seed="2037962811" result="Failed" label="Error" start-time="2018-07-22 06:16:53Z" end-time="2018-07-22 06:16:55Z" duration="2.515412" asserts="0">
+            <failure>
+              <message><![CDATA[OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: success]]></message>
+              <stack-trace><![CDATA[   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)
+   at SeleniumExtras.PageObjects.WebElementProxy.get_Element()
+   at SeleniumExtras.PageObjects.WebElementProxy.Invoke(IMessage msg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at OpenQA.Selenium.IWebElement.get_Text()
+   at WechartTest.Scenarios.AdminEditProfile.UpdatepasswordValid() in c:\users\cmiriyala\source\repos\WechartTest\WechartTest\Scenarios\AdminEditProfile.cs:line 39]]></stack-trace>
+            </failure>
+          </test-case>
+        </test-suite>
+        <test-suite type="TestFixture" id="0-1004" name="LoginAsAdmin" fullname="WechartTest.Scenarios.LoginAsAdmin" classname="WechartTest.Scenarios.LoginAsAdmin" runstate="Runnable" testcasecount="2" result="Passed" start-time="2018-07-22 06:16:56Z" end-time="2018-07-22 06:17:14Z" duration="18.130462" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+          <test-case id="0-1006" name="InvalidValidAdminLogin" fullname="WechartTest.Scenarios.LoginAsAdmin.InvalidValidAdminLogin" methodname="InvalidValidAdminLogin" classname="WechartTest.Scenarios.LoginAsAdmin" runstate="Runnable" seed="552020494" result="Passed" start-time="2018-07-22 06:16:56Z" end-time="2018-07-22 06:17:05Z" duration="9.100942" asserts="1" />
+          <test-case id="0-1005" name="ValidAdminLogin" fullname="WechartTest.Scenarios.LoginAsAdmin.ValidAdminLogin" methodname="ValidAdminLogin" classname="WechartTest.Scenarios.LoginAsAdmin" runstate="Runnable" seed="117667626" result="Passed" start-time="2018-07-22 06:17:05Z" end-time="2018-07-22 06:17:14Z" duration="9.029344" asserts="1" />
+        </test-suite>
+        <test-suite type="TestFixture" id="0-1007" name="VerifyDashboardDetails" fullname="WechartTest.Scenarios.VerifyDashboardDetails" classname="WechartTest.Scenarios.VerifyDashboardDetails" runstate="Runnable" testcasecount="3" result="Passed" start-time="2018-07-22 06:17:14Z" end-time="2018-07-22 06:17:23Z" duration="8.849681" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+          <test-case id="0-1009" name="AllButtonsTest" fullname="WechartTest.Scenarios.VerifyDashboardDetails.AllButtonsTest" methodname="AllButtonsTest" classname="WechartTest.Scenarios.VerifyDashboardDetails" runstate="Runnable" seed="1885616503" result="Passed" start-time="2018-07-22 06:17:21Z" end-time="2018-07-22 06:17:21Z" duration="0.116680" asserts="0">
+            <output><![CDATA[All Buttons on Admin Dashboard are enabled
+]]></output>
+          </test-case>
+          <test-case id="0-1008" name="NavbarTest" fullname="WechartTest.Scenarios.VerifyDashboardDetails.NavbarTest" methodname="NavbarTest" classname="WechartTest.Scenarios.VerifyDashboardDetails" runstate="Runnable" seed="642871610" result="Passed" start-time="2018-07-22 06:17:21Z" end-time="2018-07-22 06:17:23Z" duration="1.251979" asserts="0">
+            <output><![CDATA[Navigation bar is enabled in Admin's Dashboard
+]]></output>
+          </test-case>
+          <test-case id="0-1010" name="TablesTest" fullname="WechartTest.Scenarios.VerifyDashboardDetails.TablesTest" methodname="TablesTest" classname="WechartTest.Scenarios.VerifyDashboardDetails" runstate="Runnable" seed="2081069446" result="Passed" start-time="2018-07-22 06:17:23Z" end-time="2018-07-22 06:17:23Z" duration="0.057510" asserts="0">
+            <output><![CDATA[TAbles Exisit for Student and Instructor
+]]></output>
+          </test-case>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
