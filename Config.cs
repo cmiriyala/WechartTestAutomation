@@ -12,6 +12,9 @@ namespace WechartTest
         public static string BaseURL = "http://testwechart.herokuapp.com";
 
         public static string MediaHeader = "Add Media";
+
+        public static string MediaLinkTest =
+            "https://www.youtube.com/watch?v=MwgNdrA18fM&list=PL9UKTUFtRDcNq4--Vf2NYfUANEyObfeNm&index=8";
         public static class Credentials
         {
             public static class Valid

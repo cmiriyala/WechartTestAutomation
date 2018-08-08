@@ -17,5 +17,8 @@ namespace WechartTest.Pages
 
         [FindsBy(How = How.CssSelector, Using = "#app > div:nth-child(7) > div > div > div.panel.panel-default > div.panel-heading > h4")]
         public IWebElement MediaHeader { get; set; }
+
+        [FindsBy(How = How.XPath, Using = "//*[@id=\"1\"]/td[3]/a")]
+        public IWebElement FirstMediaLink { get; set; }
     }
 }

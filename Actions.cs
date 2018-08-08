@@ -18,6 +18,7 @@ namespace WechartTest
         {
             Driver.driver = new ChromeDriver();
             Driver.driver.Navigate().GoToUrl(Config.BaseURL);
+            Driver.driver.Manage().Window.Maximize();
             Driver.driver.Manage().Timeouts().ImplicitWait= TimeSpan.FromSeconds(10);
 
 
