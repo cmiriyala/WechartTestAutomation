@@ -10,6 +10,7 @@ namespace WechartTest
    public static class Driver
     {
         public static IWebDriver driver { get; set; }
+       
 
     }
 }

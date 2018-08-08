@@ -22,7 +22,7 @@ namespace WechartTest.Scenarios
     
             Actions.InitializeDriver();
             Actions.LoginAsAdmin();
-            Thread.Sleep(1000);
+           
         }
 
 
@@ -31,7 +31,6 @@ namespace WechartTest.Scenarios
         public void NavbarTest()
         {
          adminDashboard = new AdminDashboard();
-            Thread.Sleep(1000);
             if (adminDashboard.Logo.Enabled && adminDashboard.AdminName.Enabled)
             {
                 adminDashboard.AdminName.Click();

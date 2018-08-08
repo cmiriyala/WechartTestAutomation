@@ -65,10 +65,12 @@
     <Compile Include="Pages\AdminDashboard.cs" />
     <Compile Include="Pages\AdminLogin.cs" />
     <Compile Include="Pages\EditProfile.cs" />
+    <Compile Include="Pages\ManageMedia.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Scenarios\AdminEditProfile.cs" />
     <Compile Include="Scenarios\LoginAsAdmin.cs" />
+    <Compile Include="Scenarios\MediaActions.cs" />
     <Compile Include="Scenarios\VerifyDashboardDetails.cs" />
   </ItemGroup>
   <ItemGroup>

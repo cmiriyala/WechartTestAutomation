@@ -17,7 +17,6 @@ namespace WechartTest.Scenarios
         {
             Actions.InitializeDriver();
             Actions.LoginAsAdmin();
-            Thread.Sleep(1000);
             NavigateTo.EditProfile();
     
         }
@@ -26,7 +25,6 @@ namespace WechartTest.Scenarios
         public void EditProfileValid()
         {
             Actions.EditProfileValid();
-            Thread.Sleep(1000);
             EditProfile editProfile = new EditProfile();
             Assert.AreEqual(editProfile.SuccessMessage.Text,Config.EditProfileDetails.ValidEditProfileDetails.success);
         }
@@ -34,7 +32,6 @@ namespace WechartTest.Scenarios
         public void UpdatepasswordValid()
         {
             Actions.UpdatePasswordValid();
-            Thread.Sleep(1000);
             EditProfile editProfile = new EditProfile();
             Assert.AreEqual(editProfile.SuccessMessage.Text, Config.UpdatePasswordDetails.UpdatePasswordValid.validmessage);
         }
@@ -42,7 +39,6 @@ namespace WechartTest.Scenarios
         public void UpdatepasswordInValid()
         {
             Actions.UpdatePasswordInValid();
-            Thread.Sleep(1000);
             EditProfile editProfile = new EditProfile();
             Assert.AreEqual(editProfile.ErrorMessageInvalid.Text, Config.UpdatePasswordDetails.UpdatePasswordInvalid.invalidmessage);
         }

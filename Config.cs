@@ -10,6 +10,8 @@ namespace WechartTest
     public static class Config
     {
         public static string BaseURL = "http://testwechart.herokuapp.com";
+
+        public static string MediaHeader = "Add Media";
         public static class Credentials
         {
             public static class Valid

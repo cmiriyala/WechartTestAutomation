@@ -15,13 +15,14 @@ namespace WechartTest.Scenarios
         public void Initialize()
         {
             Actions.InitializeDriver();
+
         }
 
         [Test]
         public void ValidAdminLogin()
         {
            Actions.LoginAsAdmin();
-            Thread.Sleep(1000);
+           
             AdminDashboard admin = new AdminDashboard();            
            Assert.AreEqual(Config.Credentials.Valid.admindashboardName,admin.AdminDashboardText.Text);
             Actions.AdminLogout();
@@ -30,7 +31,7 @@ namespace WechartTest.Scenarios
         public void InvalidValidAdminLogin()
         {
             Actions.LoginAsAdminInvalid();
-            Thread.Sleep(1000);
+           
             AdminLogin loginPage = new AdminLogin();
             Assert.AreEqual(Config.Credentials.Invalid.notloggedin, loginPage.SignIn.GetAttribute("value"));
         }
@@ -38,7 +39,7 @@ namespace WechartTest.Scenarios
         public void CleanUp()
         {
             
-            Thread.Sleep(1000);
+            
             Driver.driver.Quit();
         }
 
